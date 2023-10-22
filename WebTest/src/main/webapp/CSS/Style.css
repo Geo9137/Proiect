@@ -1,1 +1,27 @@
-@charset "ISO-8859-1";
+/* Apply styles to the header element */
+header {
+    color: rgb(191, 191, 191); /* Text color */
+    text-align: left;          /* Align text to the left */
+    background-color: #f0f0f0; /* Light gray background color */
+    width: 100%;               /* Remove fixed width */
+    padding-left: 2%;          /* Left padding is 2% of the container width */
+    display: flex;            /* Use a flex container to control layout */
+    align-items: center;       /* Center vertically */
+    
+}
+
+/* Style the header's h1 element (the main title) */
+header h1 {
+    font-size: 36px; /* Font size of the title */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Add padding to separate title from other elements */
+}
+
+header img {
+    transform: scale(0.5);
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
